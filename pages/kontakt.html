@@ -14,6 +14,34 @@
 			<li><a href="laborationer.html">Laborationer</a></li>
 			<li><a href="kontakt.html">Kontakt</a></li>
     	</ul>
-    	<p>Kontakta mig</p>
+
+    	<form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="POST" id="Kontaktformular">
+    	    <fieldset>
+                <legend>Tomtens Utfrågning</legend>
+                <label>Har du varit snäll?</label>
+                <select name="Har du varit snäll?" id="Har du varit snäll?">
+                    <option value="Ja">Jajamensan!!</option>
+                    <option value="Nej">Nej tyvärr inte</option>
+                </select>
+                <br />
+                <label>Vilken typ av klappar tycker du om?</label>
+                <input type="checkbox" name="Klappar" value="HK" /> Hårda Klappar
+                <input type="checkbox" name="Klappar" value="MK" /> Mjuka Klappar
+                <input type="checkbox" name="Klappar" value="DK" /> Dyra Klappar
+                <input type="checkbox" name="Klappar" value="BK" /> Billiga Klappar
+                <br />
+                <label>Om du vill be om Tomtens förlåtelse så går det bra att göra här</label>
+                <textarea name="Bön" rows="10" cols="40"></textarea>
+                <br />
+            </fieldset>
+            <fieldset>
+                <legend>Kontakt med Tomten</legend>
+                <label>Ange ditt telefonnummer:</label>
+                <input type="tel" name="Telefon" />
+                <label>Ange din email:</label>
+                <input type="email" name="Emailaddress" />
+            </fieldset>
+            <input type="submit" value="Skicka till Tomten" />
+    	</form>
     </body>
 </html>
