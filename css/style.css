@@ -1,19 +1,30 @@
 #container{
     border-style: solid;
     border-width: .1em;
-    border-color: #000;
+    border-color: #fff;
     background-color: #FFF291;
     margin-right: auto;
     margin-left: auto;
+    text-align:center;
 }
 
 #mitten1{
     border-style: solid;
-    border-width: .1em;
+    border-width: .2em;
+    border-color: #fff;
     margin-left: 10em;
     background-color: #E8A55A;
+    text-align: left;
 }
 
+#film{
+    border-style: solid;
+    border-width: .1em;
+    border-color: #fff;
+    margin-left: 10em;
+    background-color: #E8A55A;
+    text-align: center;
+}
 
 #logga{
     display: block;
@@ -26,9 +37,7 @@
     border-style: solid;
     border-width: .1em;
     background-color: #99E85A;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    
 }
 /* Navigeringsmenyen */
 #navigeringsmeny{
@@ -38,12 +47,17 @@
     border-width: .5em;
     border-color: white;
     width: 8em;
+    text-align: left;
+    
 }
+
 
 #form{
     background-color: #E89B0C;
 }
 #tabell{
+    background-color: #E89B0C;
+
 }
 
 #sidfot{
@@ -52,4 +66,6 @@
     border-color: white;
     background-color: #CAE861;
     width: 100%;
+
+
 }
