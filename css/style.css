@@ -1,21 +1,33 @@
 #container{
-    
+    border-style: solid;
+    border-width: .1em;
+    border-color: #000;
 }
 
 #mitten1{
-    
+    border-style: solid;
+    border-width: .1em;
+    margin-left: 10em;
 }
 
+#logga{
 
+}
 
 /* Huvudet */
 #sidhuvud{
-    
+    border-style: solid;
+    border-width: .1em;
 }
 /* Navigeringsmenyen */
 #navigeringsmeny{
-    float:left;
-    width: 10em;
+    float: left;
+    background-color: #0CC0E8;
+    border-style: solid;
+    border-width: .5em;
+    border-color: white;
+    width: 8em;
+    
 }
 
 #form{
@@ -26,9 +38,9 @@
 }
 
 #sidfot{
-    
-}
-
-#form{
-    
+    border-style: solid;
+    border-width: 0.5em;
+    border-color: white;
+    background-color: #CAE861;
+    width: 100%;
 }
