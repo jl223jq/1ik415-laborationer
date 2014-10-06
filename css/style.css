@@ -12,7 +12,7 @@
     border-style: solid;
     border-width: .2em;
     border-color: #fff;
-    margin-left: 10em;
+    margin-left: 0em;
     background-color: #E8A55A;
     text-align: left;
 }
@@ -21,7 +21,7 @@
     border-style: solid;
     border-width: .1em;
     border-color: #fff;
-    margin-left: 10em;
+    margin-left: 0em;
     background-color: #E8A55A;
     text-align: center;
 }
@@ -35,21 +35,49 @@
 /* Huvudet */
 #sidhuvud{
     border-style: solid;
-    border-width: .1em;
+    border-width: .5em;
     background-color: #99E85A;
+    border-color: #fff;
+    width: 100%;
     
 }
 /* Navigeringsmenyen */
 #navigeringsmeny{
     float: left;
-    background-color: #0CC0E8;
     border-style: solid;
     border-width: .5em;
-    border-color: white;
-    width: 8em;
-    text-align: left;
+    border-color: #fff;
+    width: 100%;
+    background-color: #0CC0E8;
+    text-align: center;
     
 }
+#navigeringsmeny ul{
+    float: left;
+    width: 100%;
+    padding: .3em;
+    margin: .2em;
+}
+
+#navigeringsmeny a{
+    float: center;
+    width: 100%;
+    color: #0CC0E8;
+    background-color: #fff;
+    padding: .3em 3em;
+}
+#navigeringsmeny li{
+    display: inline;
+}
+
+#navigeringsmeny a:hover{
+    background-color: #99E85A;    
+}
+.aktiv{
+    font-style: italic;
+    font-size: 1.1em;
+}
+
 
 
 #form{
@@ -66,6 +94,10 @@
     border-color: white;
     background-color: #CAE861;
     width: 100%;
+}
 
 
+.aktiv
+{
+background-color: white;
 }
