@@ -9,6 +9,7 @@
     font-size: 1.1em;
     line-height: 20px;
     width: 100%;
+    
 }
 
 #mitten1{
@@ -21,7 +22,6 @@
     border-width: .1em;
     border-bottom: 0em;
     border-color: #000;
-
 }
 
 #film{
@@ -34,6 +34,7 @@
     border-bottom: 0em;
     border-top: 0em;
     border-color: #000;
+    text-align: center;
 }
 
 #logga{
@@ -92,7 +93,12 @@
     font-style: italic;
     font-size: 1.1em;
 }
-
+.log{
+    background-image: url(pics/log.png);
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    padding-top: 1em;
+}
 
 
 #form{
@@ -118,6 +124,7 @@
     border-width: .1em;
     border-color: #000;
     background-color: #99E85A;
+    text-align: center;
 }
 h1{
     text-transform: uppercase;
