@@ -1,3 +1,4 @@
+/*Samlings-id'et för alla andra id'erna*/
 #container{
     border-style: solid;
     border-width: .5em;
@@ -9,9 +10,57 @@
     font-size: 1.1em;
     line-height: 20px;
     width: 100%;
-    
 }
 
+/*Sidans huvud*/
+#sidhuvud{
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 0em;
+    border-style: solid;
+    border-width: .1em;
+    border-bottom: 0em;
+    border-color: #000;
+    background-color: #99E85A;
+}
+
+/*Ser till så att loggan visas och är centrerad*/
+#logga{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigeringsmenyen */
+#navigeringsmeny{
+    float: left;
+    border-style: solid;
+    border-width: .5em;
+    border-color: #fff;
+    width: 100%;
+    background-color: #0CC0E8;
+}
+#navigeringsmeny ul{
+    float: left;
+    width: 100%;
+    padding: .2em;
+    margin: .1em;
+}
+#navigeringsmeny a{
+    float: center;
+    width: 100%;
+    color: #0CC0E8;
+    background-color: #fff;
+    padding: .1em 1em;
+}
+#navigeringsmeny li{
+    display: inline;
+}
+#navigeringsmeny a:hover{
+    background-color: #99E85A;    
+}
+
+/*Huvuddelen av webbsidan*/
 #mitten1{
     padding: 2em;
     margin-left: 1em;
@@ -24,6 +73,7 @@
     border-color: #000;
 }
 
+/*Delen som hanterar filmen*/
 #film{
     padding: 2em;
     margin-left: 1em;
@@ -37,62 +87,26 @@
     text-align: center;
 }
 
-#logga{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+/*Klasser*/
 
-
-#sidhuvud{
-    padding: 2em;
-    margin: 1em;
-    margin-bottom: 0em;
-    border-style: solid;
-    border-width: .1em;
-    border-bottom: 0em;
-    border-color: #000;
-    background-color: #99E85A;
-}
-/* Navigeringsmenyen */
-#navigeringsmeny{
-
-    float: left;
-    border-style: solid;
-    border-width: .5em;
-    border-color: #fff;
-    width: 100%;
-    background-color: #0CC0E8;
-    
-}
-#navigeringsmeny ul{
-    float: left;
-    width: 100%;
-    padding: .2em;
-    margin: .1em;
-
-}
-
-#navigeringsmeny a{
-    float: center;
-    width: 100%;
-    color: #0CC0E8;
-    background-color: #fff;
-    padding: .1em 1em;
-
-}
-#navigeringsmeny li{
-    display: inline;
-
-}
-
-#navigeringsmeny a:hover{
-    background-color: #99E85A;    
-}
+/*Berör länkar*/
 .aktiv{
     font-style: italic;
     font-size: 1.1em;
 }
+a:link{
+    color: #85A036;
+    font-family: "verdana", sans-serif;
+    font-style: italic;
+}
+a:visited{
+    color: #FF2714;
+}
+a:hover{
+    color: #E8680C;
+}
+
+/*Länkar in en ikon*/
 .log{
     background-image: url(pics/log.png);
     background-repeat: no-repeat;
@@ -100,7 +114,7 @@
     padding-top: 1em;
 }
 
-
+/*Formuläret behandlas här*/
 #form{
     padding: 2em;
     margin-left: 1em;
@@ -110,12 +124,15 @@
     border-width: .1em;
     border-color: #000;
 }
+
+/*Tabellen behandlas här*/
 #tabell{
     float: center;
     background-color: #A4FFEE;
     width: 100%;
 }
 
+/*Sidans fot*/
 #sidfot{
     padding: 2em;
     margin: 1em;
@@ -126,6 +143,8 @@
     background-color: #99E85A;
     text-align: center;
 }
+
+/*Justerar sidans headers*/
 h1{
     text-transform: uppercase;
     font-family: "Arial", sans-serif;
@@ -140,15 +159,3 @@ h4{
     font-family: "Arial", sans-serif
 }
 
-a:link{
-    color: #85A036;
-    font-family: "verdana", sans-serif;
-    font-style: italic;
-}
-
-a:visited{
-    color: #FF2714;
-}
-a:hover{
-    color: #E8680C;
-}
