@@ -1,29 +1,39 @@
 #container{
     border-style: solid;
-    border-width: .1em;
+    border-width: .5em;
     border-color: #fff;
-    background-color: #FFF291;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
     font-family: "Times New Roman", sans-serif;
     font-size: 1.1em;
     line-height: 20px;
+    width: 100%;
 }
 
 #mitten1{
-    border-style: solid;
-    border-width: .2em;
-    border-color: #fff;
-    background-color: #E8A55A;
+    padding: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: #A4FFEE;
     text-align: left;
+    border-style: solid;
+    border-width: .1em;
+    border-bottom: 0em;
+    border-color: #000;
+
 }
 
 #film{
+    padding: 2em;
+    margin-left: 1em;
+    margin-right:1em;
+    background-color: #A4FFEE;
     border-style: solid;
     border-width: .1em;
-    border-color: #fff;
-    background-color: #E8A55A;
+    border-bottom: 0em;
+    border-top: 0em;
+    border-color: #000;
 }
 
 #logga{
@@ -34,15 +44,18 @@
 
 
 #sidhuvud{
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 0em;
     border-style: solid;
-    border-width: .5em;
+    border-width: .1em;
+    border-bottom: 0em;
+    border-color: #000;
     background-color: #99E85A;
-    border-color: #fff;
-    width: 100%;
-    
 }
 /* Navigeringsmenyen */
 #navigeringsmeny{
+
     float: left;
     border-style: solid;
     border-width: .5em;
@@ -54,8 +67,9 @@
 #navigeringsmeny ul{
     float: left;
     width: 100%;
-    padding: .3em;
-    margin: .2em;
+    padding: .2em;
+    margin: .1em;
+
 }
 
 #navigeringsmeny a{
@@ -63,10 +77,12 @@
     width: 100%;
     color: #0CC0E8;
     background-color: #fff;
-    padding: .3em 3em;
+    padding: .1em 1em;
+
 }
 #navigeringsmeny li{
     display: inline;
+
 }
 
 #navigeringsmeny a:hover{
@@ -80,19 +96,28 @@
 
 
 #form{
-    background-color: #E89B0C;
+    padding: 2em;
+    margin-left: 1em;
+    margin-right:1em;
+    background-color: #A4FFEE;
+    border-style: solid;
+    border-width: .1em;
+    border-color: #000;
 }
 #tabell{
-    background-color: #E89B0C;
-
+    float: center;
+    background-color: #A4FFEE;
+    width: 100%;
 }
 
 #sidfot{
+    padding: 2em;
+    margin: 1em;
+    margin-top: 0em;
     border-style: solid;
-    border-width: 0.5em;
-    border-color: #fff;
-    background-color: #CAE861;
-    width: 100%;
+    border-width: .1em;
+    border-color: #000;
+    background-color: #99E85A;
 }
 h1{
     text-transform: uppercase;
@@ -113,9 +138,10 @@ a:link{
     font-family: "verdana", sans-serif;
     font-style: italic;
 }
+
+a:visited{
+    color: #FF2714;
+}
 a:hover{
     color: #E8680C;
-}
-#laboration1 a:link{
-    color: #85A036;
 }
